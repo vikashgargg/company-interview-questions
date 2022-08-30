@@ -9,3 +9,27 @@ https://www.databricks.com/blog/2021/10/04/pandas-api-on-upcoming-apache-spark-3
 
 Practice sql questions
 https://datalemur.com
+
+
+Cities With Completed Trades:
+with cte as 
+(select u.city , 
+    count(case when t.status = 'Completed'
+    then 1 else Null end) as total_orders from trades t 
+JOIN users u 
+  ON t.user_id = u.user_id
+GROUP BY u.city 
+ORDER BY total_orders DESC limit 3) select * from cte
+
+SELECT 
+  u.city, 
+  COUNT(t.order_id) AS total_orders 
+FROM trades t 
+JOIN users u 
+  ON t.user_id = u.user_id 
+WHERE t.status = 'Completed' 
+GROUP BY u.city 
+ORDER BY total_orders DESC
+LIMIT 3;
+
+
