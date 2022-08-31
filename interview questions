@@ -33,3 +33,8 @@ ORDER BY total_orders DESC
 LIMIT 3;
 
 
+Teams Power Users:
+SELECT sender_id,count( message_id) as message_count 
+from messages 
+  where sent_date between '08/01/2022' and '08/31/2022' 
+group by 1 order by 2 desc limit 2
