@@ -66,3 +66,11 @@ WHERE
 skill IN ('Python', 'Tableau', 'PostgreSQL')
 GROUP BY candidate_id
 HAVING COUNT(skill) = 3
+
+
+
+Unfinished Parts:
+
+
+select part from parts_assembly WHERE finish_date is NULL
+group by part;
