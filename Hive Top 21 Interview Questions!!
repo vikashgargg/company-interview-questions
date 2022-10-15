@@ -1,0 +1,28 @@
+Hive Top 21 Interview Questions!! Todays big data dose for you!!
+
+1.Define the difference between Hive and HBase?
+2.What kind of applications is supported by Apache Hive?
+3.Where does the data of a Hive table gets stored?
+4.What is a metastore in Hive?
+5.Why Hive does not store metadata information in HDFS?
+6.What is the difference between local and remote metastore?
+7.What is the default database provided by Apache Hive for metastore?
+8.Scenario: Suppose I have installed Apache Hive on top of my Hadoop cluster using default metastore configuration. Then, what will happen if we have multiple clients trying to access Hive at the same time?
+9.What is the difference between external table and managed table?
+10.Is it possible to change the default location of a managed table?
+11.When should we use SORT BY instead of ORDER BY?
+12.What is a partition in Hive?
+13.What is dynamic partitioning and when is it used?
+14.Scenario:Suppose, I create a table that contains details of all the transactions done by the customers of year 2016: CREATE TABLE transaction_details (cust_id INT, amount FLOAT, month STRING, country STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ‘,’ ;
+15.What is the default maximum dynamic partition that can be created by a mapper/reducer? How can you change it?
+16.Why do we need buckets?
+17.How Hive distributes the rows into buckets?
+18.  What will happen in case you have not issued the command: ‘SET hive.enforce.bucketing=true;’ before bucketing a table in Hive in Apache Hive 0.x or 1.x?
+19.What is indexing and why do we need it?
+20. How will you consume this CSV file into the Hive warehouse using built SerDe?
+21.Scenario: Suppose, I have a lot of small CSV files present in /input directory in HDFS and I want to create a single Hive table corresponding to these files. The data in these files are in the 
+1.    format: {id, name, e-mail, country}. Now, as we know, Hadoop performance degrades when we use lots of small files.
+ 
+a.    So, how will you solve this problem where we want to create a single Hive table for lots of small files without degrading the performance of the system?
+
+Stay tuned for more post regarding Big Data & SQL.
