@@ -1,0 +1,43 @@
+Big Data Engineer / Hadoop admin
+𝗛𝗮𝗱𝗼𝗼𝗽 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 Series -1 🔥🔥🔥
+
+1. How to handle small files in hadoop?
+2. What is federation mode in hadoop?
+3. What are different nodes in hadoop cluster?
+4. What is difference between backup node and secondary namenode?
+5. What is DistCp?
+6. What is Speculative execution?
+7. For a file of size MB how many blocks will be created on HDFS?
+8. Write a MapReduce program to add all the elements in a file.
+9. What is the difference between hashset and hashmap ?
+10. What are the Side Data Distribution Techniques.
+11. What is shuffleing in mapreduce?
+12. What is partitioning?
+13. Can we change the file cached by Distributed Cache
+14. What if job tracker machine is down?
+15. Can we deploy job tracker other than name node?
+16. What are the four modules that make up the Apache Hadoop framework?
+17. Which modes can Hadoop be run in? List a few features for each mode.
+18. Where are Hadoop’s configuration files located?
+19. List Hadoop’s three configuration files.
+20. What are “slaves” and “masters” in Hadoop?
+21. How many datanodes can run on a single Hadoop cluster?
+22. How many job tracker processes can run on a single Hadoop cluster?
+23. What sorts of actions does the job tracker process perform?
+24. How does job tracker schedule a job for the task tracker?
+25. What does the mapred.job.tracker command do?
+26. What is “PID”?
+27. What is “jps”?
+28. Is there another way to check whether Namenode is working?
+29. How would you restart Namenode?
+30. What is “fsck”?
+31. What is a “map” in Hadoop?
+32. What is a “reducer” in Hadoop?
+33. What are the parameters of mappers and reducers?
+34. Is it possible to rename the output file, and if so, how?
+35. List the network requirements for using Hadoop.
+36. What is streaming in Hadoop?
+37. What is the difference between Input Split and an HDFS Block?
+38. What does the file hadoop-metrics.properties do?
+39. What is InputSplit in Hadoop?
+40. How is the splitting of files invoked in the Hadoop framework
